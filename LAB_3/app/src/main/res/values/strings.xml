@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LAB_3</string>
+    <string-array name="categories_list">
+        <item>Работа</item>
+        <item>Обед</item>
+        <item>Отдых</item>
+        <item>Уборка</item>
+        <item>Сон</item>
+    </string-array>
+    <string name="title_activity_categories2">Categories2Activity</string>
+    <string name="icon">Иконки</string>
+    <string name="menu">Меню</string>
+    <string name="category_name">Название категории</string>
+    <string name="category_description">Описание категории</string>
+    <string name="add">Добавить</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

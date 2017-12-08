@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategory"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvInterval"
+        android:layout_alignBottom="@+id/tvCategory"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStart"
+        android:layout_below="@+id/tvCategory"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInterval"
+        android:layout_alignEnd="@+id/tvInterval"
+        android:id="@+id/tvEnd" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescr"
+        android:layout_below="@+id/tvStart"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/tvEnd"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ssau.lab_3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ssau.lab_3.MainActivity"
+            android:label="@string/menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ssau.lab_3.CategoriesActivity" />
+        <activity android:name="ssau.lab_3.RecordActivity" />
+        <activity android:name="ssau.lab_3.RecordsActivity" />
+        <activity android:name="ssau.lab_3.PhotosActivity" />
+        <activity android:name="ssau.lab_3.CategoryTimesActivity" />
+        <activity android:name="ssau.lab_3.MaxTimeRecordsActivity" />
+        <activity android:name="ssau.lab_3.MaxCountRecordsActivity" />
+        <activity android:name="ssau.lab_3.CircleDiagramActivity" />
+        <activity
+            android:name="ssau.lab_3.Categories2Activity"
+            android:label="@string/title_activity_categories2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="ssau.lab_3.AddCategoryActivity" />
+        <activity
+            android:name="ssau.lab_3.icon.IconSelectActivity"
+            android:label="@string/icon"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+    </application>
+
+</manifest>
